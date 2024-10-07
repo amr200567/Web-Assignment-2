@@ -1,0 +1,45 @@
+*{
+    background-color:rgb(141, 215, 155)
+}
+
+.name{
+    color: rgb(223, 255, 127);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 4px 2px;
+}
+button[type="submit"]
+{
+    color: rgb(255, 0, 0);
+}
+
+.photo{
+    text-align: center;
+    justify-self: space-around ;
+    background-image: url("book");
+
+}
+
+
+
+nav{
+    background-color: rgb(171, 234, 236);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 30px;
+
+}
+nav ul li a{
+    color: rgb(218, 109, 90);
+    text-decoration: none;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    color: var(--primarycolor);
+}
