@@ -1,0 +1,21 @@
+*{
+    background-color:rgb(141, 215, 142)
+}
+
+.name{
+    color: rgb(163, 127, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 4px 2px;
+}
+button[type="submit"]
+{
+    color: red;
+}
+
+.photo{
+    text-align: center;
+    justify-self: space-around ;
+    background-image: url("book");
+
+}
